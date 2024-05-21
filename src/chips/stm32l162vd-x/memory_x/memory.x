@@ -1,0 +1,5 @@
+MEMORY
+{
+    FLASH : ORIGIN = 0x08040000, LENGTH =  256K /* BANK_2 */
+    RAM   : ORIGIN = 0x20000000, LENGTH =   80K /* SRAM */
+}
